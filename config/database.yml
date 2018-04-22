@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: grades
-  username: sa_grades_ms
-  password: <%= ENV['SA_GRADES_MS_DATABASE_PASSWORD'] %>
+  username: root
+  password: 123
