@@ -14,8 +14,8 @@ default: &default
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
-  password: arqui
-  host: sa_grades_db
+  password: 123
+  host: grades-db
 
 development:
   <<: *default
